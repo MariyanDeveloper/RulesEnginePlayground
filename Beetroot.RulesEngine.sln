@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EBFC9D34-D9B6-4ED4-8EC7-DE9E48842492}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1FB83918-5DC3-4DA0-B973-8E5326C3DFCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beetroot.RulesEngine.Tests.Unit", "tests\Beetroot.RulesEngine.Tests.Unit\Beetroot.RulesEngine.Tests.Unit.csproj", "{1536CFF8-F285-4B96-85FA-CBAB20F7FEF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beetroot.RulesEngine.Core", "src\Beetroot.RulesEngine.Core\Beetroot.RulesEngine.Core.csproj", "{CA29C164-72D7-44AB-AB10-15DA0E924513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beetroot.RulesEngine.Client.Console", "src\Beetroot.RulesEngine.Client.Console\Beetroot.RulesEngine.Client.Console.csproj", "{3F2A35F3-206D-4356-A37D-540C4E33A450}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1536CFF8-F285-4B96-85FA-CBAB20F7FEF0} = {1FB83918-5DC3-4DA0-B973-8E5326C3DFCA}
+		{CA29C164-72D7-44AB-AB10-15DA0E924513} = {EBFC9D34-D9B6-4ED4-8EC7-DE9E48842492}
+		{3F2A35F3-206D-4356-A37D-540C4E33A450} = {EBFC9D34-D9B6-4ED4-8EC7-DE9E48842492}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1536CFF8-F285-4B96-85FA-CBAB20F7FEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1536CFF8-F285-4B96-85FA-CBAB20F7FEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1536CFF8-F285-4B96-85FA-CBAB20F7FEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1536CFF8-F285-4B96-85FA-CBAB20F7FEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA29C164-72D7-44AB-AB10-15DA0E924513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA29C164-72D7-44AB-AB10-15DA0E924513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA29C164-72D7-44AB-AB10-15DA0E924513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA29C164-72D7-44AB-AB10-15DA0E924513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2A35F3-206D-4356-A37D-540C4E33A450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2A35F3-206D-4356-A37D-540C4E33A450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2A35F3-206D-4356-A37D-540C4E33A450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2A35F3-206D-4356-A37D-540C4E33A450}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+[
+  {
+    "WorkflowName": "ConstructionCompliance",
+    "Rules": [
+      {
+        "RuleName": "CheckWallHeight",
+        "SuccessEvent": "Wall height is compliant.",
+        "ErrorMessage": "Wall height exceeds the maximum allowed height.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "input1.Height <= 4000"
+      },
+      {
+        "RuleName": "CheckWallWidth",
+        "SuccessEvent": "Wall width is compliant.",
+        "ErrorMessage": "Wall width exceeds the maximum allowed width.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "input1.Width <= 40"
+      },
+      {
+        "RuleName": "CheckWallMaterial",
+        "SuccessEvent": "Wall material is compliant.",
+        "ErrorMessage": "Wall material is not allowed.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "input1.Material == \"Concrete\""
+      }
+    ]
+  }
+]
